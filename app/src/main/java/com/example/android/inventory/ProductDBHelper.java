@@ -24,9 +24,6 @@ public class ProductDBHelper extends SQLiteOpenHelper {
                 + productEntry.COLUMN_SUPPLIER_P_NO + " INTEGER NOT NULL);";
 
         db.execSQL(CREATES_PRODUCT_TABLE);
-
-        String INPUT_SAMPLE_DATA = "INSERT INTO " + productEntry.TABLE_NAME +" VALUES (PAN,5,1,Udacity,123456789);";
-        //db.execSQL(INPUT_SAMPLE_DATA);
     }
 
     @Override
